@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Testing CSS on this bg</title>
+<style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('image/pexels-veeterzy-39811.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  * { text-shadow: 0 0 4px #252424; font-family: 'Comfortaa', cursive; }
+  a { color:rgba(90, 144, 224, 0.877); text-shadow: 0 0 4px #416fd3; text-decoration: none; }
+  .centered-box {
+    background-color: rgba(49, 49, 49, 0.541);
+    padding: 20px;
+    height: 420px;
+    width: 390px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0 1px 4px #4b9bc9;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .username {
+    font-size: 24px;
+    color: hsla(213, 52%, 78%, 0.925);
+    text-shadow: 0 0 3px hsla(212, 70%, 56%, 0.925);
+    margin: 10px 0;
+  }
+  
+  .description {
+    color:hsla(182, 71%, 75%, 0.925);
+    text-shadow: 0 0 3px hsla(194, 61%, 45%, 0.925);
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .sub-description {
+    color:hsla(184, 50%, 80%, 0.959);
+    text-shadow: 0 0 3px hsla(194, 22%, 45%, 0.925);
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  .sub-description-button {
+  background-color: #57535369;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  box-shadow: 0 0 2px #8bb5f5;
+  transition: box-shadow 0.4s;
+  cursor: pointer;
+  border-radius: 13px;
+}
+.sub-description-button:hover {
+box-shadow: 0 0 10px #5a8dda;
+
+
+
+
+}
+
+</style>
+</head>
+<body>
+  <div class="centered-box">
+    <img src="image/JfHSyiq.gif" alt="Profile Image" class="profile-image">
+    <h1 class="username">Lhotse</h1>
+    <h2 class="description">Music listener, nature lover.</h2>
+    <button class="sub-description-button"><a href="#">Watch me here</a></button>
+    <p class="sub-description">I don't really know what to say about myself.<br>Remember that font is important.</p>
+  </div>
+</body>
+</html>
