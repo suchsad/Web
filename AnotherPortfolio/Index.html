@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Profile</title>
+</head>
+<body>
+    <div class="content">
+        <div class="profile" id="profile">
+        <img src="#" alt="smexy" id="profile-image">
+        <div class="profile-info">
+            <h1 id="username1">Ven</h1>
+            <p id="description">am Simon<br><br> a coding enthusiast wandering through the shadows of C#, JavaScript, and HTML. My Tampermonkey scripts tell stories of digital intrigue, while my HTML sites whisper tales of a bygone internet. In the quiet corners of code, I've even toyed with cheat software, but it's all just a melancholic dance in this virtual theater. 🌌💻✨</p>
+        </div>
+        </div>
+    <div class="profile-popup" id="profile-popup">
+        <div class="profile-popup-content">
+            <img src="#" alt="smexy" id="popup-profile-image">
+            <h1 id="popup-username1">Ven</h1>
+            <p id="popup-description">am Simon, a coding enthusiast wandering through the shadows of C#, JavaScript, and HTML. My Tampermonkey scripts tell stories of digital intrigue, while my HTML sites whisper tales of a bygone internet. In the quiet corners of code, I've even toyed with cheat software, but it's all just a melancholic dance in this virtual theater. 🌌💻✨</p>
+        </div>
+    </div>
+
+    <div class="projects-button">Projects</div>
+    
+    <div id="projects-popup" class="projects-popup">
+        <div class="projects-popup-content">
+            <div id="project-list" class="project-list">
+               
+            </div>
+        </div>
+    </div>
+
+     <div class="console-container">
+        <button id="toggle-console">Toggle Console</button>
+        <div id="console" class="hidden">
+       
+        </div>
+        <input id="user-input" type="text" class="hidden"> 
+    </div>
+
+    <div class="audio-player">
+        <div class="player-left">
+            <img src="resources/banner.png" alt="Cover Art" class="cover-art">
+        </div>
+        <div class="player-right">
+            <div class="player-header">
+                <h1 class="title">Lost All Faith</h1>
+                <h3 class="artist">Ren</h3>
+            </div>
+            <div class="controls">
+                <button id="playButton">&#9658;</button>
+                <button id="stopButton">&#9724;</button>
+                <button id="loopButton">On</button>
+            </div>
+            <input type="range" id="volumeSlider" class="volume-slider" min="0" max="1" step="0.1" value="1">
+        </div>
+        <audio id="audio-player" controls>
+            <source src="resources/lost all faith.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <div  id="contact-button">
+     <button class="contact-button">Contact</button>
+    </div>
+    
+    <div class="contact-section" id="contact-section">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="username">Username (Required)</label>
+            <input type="text" id="username" name="username" required>
+    
+            <label for="topic">Topic</label>
+            <input type="text" id="topic" name="topic">
+    
+            <label for="message">Message (Required)</label>
+            <textarea id="message" name="message" class="contact-textarea" required></textarea>
+    
+            <button type="button" id="send-button">Send</button>
+        </form>
+    </div>
+    
+
+    <div id="dark-layer"></div>
+
+
+    </div>
+    <canvas id="rainCanvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
