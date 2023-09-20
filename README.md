@@ -9,3 +9,7 @@
 
 # Another Portfolio
 >  ![image](https://github.com/melxncholicxl/Web/assets/143356794/79216f09-fdfb-4abf-82b6-32ccbecc9d18)
+
+
+# FreeTyper
+> ![image](https://github.com/sleeptght/Web/assets/143356794/4dc48c05-ff56-433d-88f1-0853449df681)
