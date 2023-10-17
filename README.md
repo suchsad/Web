@@ -13,3 +13,11 @@
 
 # FreeTyper
 > ![image](https://github.com/sleeptght/Web/assets/143356794/4dc48c05-ff56-433d-88f1-0853449df681)
+
+
+# SongShuffle
+> ![image](https://github.com/d1sease/Web/assets/143356794/f0586e65-4005-47b6-ace8-f8fb2e269691)
+
+
+# Novice Portfolio
+> ![image](https://github.com/d1sease/Web/assets/143356794/3d2bf8d7-9cd8-4b40-b302-347249806f87)
