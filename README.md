@@ -21,3 +21,6 @@
 
 # Novice Portfolio
 > ![image](https://github.com/d1sease/Web/assets/143356794/3d2bf8d7-9cd8-4b40-b302-347249806f87)
+
+# Graphic Designer's Idea Site - Never Finished.
+> ![image](https://github.com/d1sease/Web/assets/143356794/823475b1-ff13-4ca3-b711-16db46bbe168)
