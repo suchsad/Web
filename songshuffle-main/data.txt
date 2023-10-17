@@ -1,0 +1,4 @@
+Client ID: 2908a1e2d9a7493db80ff866388c4a28
+Client Secret: f6c8c829d50442a9928b69bedbcb310e
+
+Access token:  NULL

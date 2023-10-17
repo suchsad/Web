@@ -1,0 +1,182 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('bg/main.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  /* logo */
+
+  #logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: #8b5aff;
+  opacity: 0.04;
+  transition: 0.6s ease-in;
+}
+#logo-container:hover {
+    transition: 0.6s ease-in;
+    opacity: 1;
+}
+#logo {
+  max-height: 3rem;
+  margin-right: 1rem;
+  align-items: center;
+}
+
+#logo-text {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+  color: #fff;
+  text-shadow: 0 0 5px black;
+  font-family: 'Indie Flower', cursive;
+}
+#logo-text2 {
+  font-size: 0.8rem;
+  margin-top: -1px;
+  color: #a15f5f;
+  text-shadow: 0 0 5px black;
+  font-family: 'Indie Flower', cursive;
+}
+  
+  h1 {
+    margin-bottom: 2.5rem;
+    font-family: 'Indie Flower', cursive;
+    color: #c4eba5;
+    text-shadow: 0 0 5px black;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  label {
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    text-shadow: 0 0 5px black;
+  }
+  genre-select {
+    border-radius: 25px;
+    border: 1px solid #1db954;
+    background-color: #ba74c0;;
+    color: #c0749a;
+    text-shadow: 0 0 5px;
+  }
+  select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: 1px solid #a682fa;
+    background-color: #8c5aff9a;;
+    color: #ffffff;
+   
+    text-shadow: 0 0 5px #fff;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #8c5aff9a;
+    color: #ffffff; 
+    text-shadow: 0 0 5px #fff;
+    border: 1px solid #a682fa;
+    border-radius: 14px;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #cc648f;
+    transition: 0.6s ease-in-out;
+  }
+  
+  output {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+
+  .generated-link {
+    font-size: 1.5em;
+   
+    
+  }
+  
+a {
+    font-family: 'Indie Flower', cursive;
+    text-shadow: 0 0 5px black;
+    color: #cc648f;
+    text-shadow: 0 0 5px #fff;
+    transition: 0.6s ease-in-out;
+    text-decoration: underline dotted #12833a;
+}
+a:hover {
+  transition: 0.6s ease-in-out;
+  color: #4a80e4;
+}
+.progress-bar {
+  width: 100%;
+  height: 5px;
+    position: relative;
+  overflow: hidden;
+}
+
+.progress-bar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #ff3d00;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s ease-in-out;
+}
+
+.progress-bar.playing::before {
+  transform: scaleX(1);
+}
+
+#output-field .song-link-container {
+  position: relative;
+}
+
+#output-field .song-link-container .play-button {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+
+#preview-error-text {
+  font-family: 'Indie Flower', cursive;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    color: rgb(228, 31, 24);
+    text-shadow: 0 0 5px #000000;
+    background-color: #be69698f;
+    border-radius: 25px;
+    width: 300px;
+    text-align: center;
+}
